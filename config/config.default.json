@@ -1,0 +1,11 @@
+{
+	"twitch_app": {
+		"client_id": "",
+		"client_secret": "",
+		"callback_URL": "http://127.0.0.1:3000/auth/twitch/callback",
+		"scope": ["user_read","channel_subscriptions","channel_check_subscription"]
+	},
+	"session": {
+		"secret": ""
+	}
+}

@@ -73,3 +73,8 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+/trash
+/config/config.json
+/config/randombits.txt
+/db/users.db

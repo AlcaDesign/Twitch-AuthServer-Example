@@ -1,0 +1,27 @@
+<%
+	var util = require('util');
+%><!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Sub List</title>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,700,100" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,700,100" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<div id="head">Some Twitch Thing</div>
+
+<div id="log">
+<% if(user !== null) { %>
+	<div id="name">Hello, <%= user.display_name %></div>
+	<a href="/logout">Logout</a>
+<% }
+else { %>
+	<a href="/auth/twitch">Login</a>
+<% } %>
+</div>
+
+</body>
+</html>

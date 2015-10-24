@@ -1,0 +1,27 @@
+html,body {
+	font-family: 'Roboto', sans-serif;
+	margin: 30px 50px;
+	background-color: hsla(0, 0%, 12%, 1);
+	color: hsla(0, 0%, 100%, .92);
+	font-weight: 300;
+}
+a {
+	color: hsla(0, 0%, 100%, .76);
+	text-decoration: none;
+}
+a:hover {
+	color: hsla(0, 0%, 100%, .92);
+	text-decoration: none;
+}
+#head {
+	font-size: 36px;
+	color: hsla(0, 0%, 100%, .88)
+}
+#log {
+	font-weight: 700;
+	font-size: 24px;
+}
+#name {
+	font-size: 48px;
+	font-weight: 100;
+}
