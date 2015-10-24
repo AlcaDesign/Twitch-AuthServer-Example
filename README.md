@@ -4,7 +4,7 @@ A basic Express server example for logging in with Twitch.
 
 # Instructions
 
-1. Clone the repository: `git clone AlcaDesign/Twitch-AuthServer-Example`.
+1. Clone the repository: `git clone https://github.com/AlcaDesign/Twitch-AuthServer-Example.git`.
 2. Create the file "config.json" based on the `/config/config.default.json`.
     1. Create or edit a [Twitch app](http://www.twitch.tv/kraken/oauth2/clients/new) that will redirect to `http://127.0.0.1:3000/auth/twitch/callback`.
     2. Insert the generated client ID and client secret into their respective fields.
