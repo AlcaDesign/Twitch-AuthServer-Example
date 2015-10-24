@@ -1,7 +1,7 @@
 {
-  "name": "twitch-subs-list",
+  "name": "twitch-authserver-example",
   "version": "0.1.0",
-  "description": "Get a list of subs for a channel",
+  "description": "A basic Express server example for logging in with Twitch",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
