@@ -4,7 +4,6 @@ var util = require('util'),
 	fs = require('fs'),
 	crypto = require('crypto'),
 	
-	_ = require('lodash'),
 	Datastore = require('nedb'),
 	express = require('express'),
 	bodyParser = require('body-parser'),
@@ -107,8 +106,7 @@ app
 	.get('/', function(req, res) {
 			res.render('index', {
 					user: req.user || null,
-					require,
-					_ });
+					require });
 		})
 	.get('/logout', function(req, res) {
 			req.logout();
@@ -132,8 +130,7 @@ app
 	.get('/error', function(req, res) {
 			res.render('index', {
 					user: req.user || null,
-					require,
-					_ });
+					require });
 		})
 	
 	.listen(3000);

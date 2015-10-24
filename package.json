@@ -14,10 +14,8 @@
     "cookie-session": "^1.2.0",
     "ejs": "^2.3.4",
     "express": "^4.13.3",
-    "lodash": "^3.10.1",
     "nedb": "^1.2.1",
     "passport": "^0.3.0",
-    "passport-twitch": "^1.0.2",
-    "request": "^2.65.0"
+    "passport-twitch": "^1.0.2"
   }
 }
